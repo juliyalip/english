@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  width: 450px;
+
+  margin-bottom: 20px;
+  background-color: white;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.contText {
+  width: 250px;
+  text-align: center;
+  margin-left: 20px;
+  padding-top: 15px;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.image {
+  object-fit: cover;
+}
