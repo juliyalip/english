@@ -1,0 +1,38 @@
+const verbs = [
+  { id: '01', complited: false, text: 'smell', translate: 'пахнуть' },
+  { id: '02', complited: false, text: 'seem', translate: 'казаться' },
+  { id: '03', complited: false, text: 'resemble', translate: 'быть похожим' },
+  { id: '04', complited: false, text: 'taste', translate: 'ощущать (на вкус)' },
+  { id: '05', complited: false, text: 'sound', translate: 'звучать' },
+  { id: '06', complited: false, text: 'feel', translate: 'чувствовать' },
+  { id: '07', complited: false, text: 'adore', translate: 'обожать' },
+  { id: '08', complited: false, text: 'care of', translate: 'любить' },
+  { id: '09', complited: false, text: 'remember', translate: 'помнить' },
+  { id: '10', complited: false, text: 'forget', translate: 'забывать' },
+  { id: '11', complited: false, text: 'realize', translate: 'осознавать' },
+  {
+    id: '12',
+    complited: false,
+    text: 'suppose',
+    translate: 'полагать, допустим',
+  },
+  { id: '13', complited: false, text: 'mean', translate: 'иметь в виду' },
+  { id: '14', complited: false, text: 'agree', translate: 'соглашаться' },
+  { id: '15', complited: false, text: 'admit', translate: 'обожать' },
+  { id: '16', complited: false, text: 'imagine', translate: 'воображать' },
+  { id: '17', complited: false, text: 'prefer', translate: 'предпочитать' },
+  { id: '18', complited: false, text: 'wish', translate: 'желать' },
+  {
+    id: '19',
+    complited: false,
+    text: 'possess',
+    translate: 'обладать, (о способности),  одержимость ',
+  },
+  { id: '20', complited: false, text: 'own', translate: 'владеть' },
+  { id: '21', complited: false, text: 'belong', translate: 'принадлежать' },
+  { id: '22', complited: false, text: 'contain', translate: 'содержать' },
+  { id: '23', complited: false, text: 'include', translate: 'включать в себя' },
+  { id: '24', complited: false, text: 'consist', translate: 'состоять' },
+];
+
+export default verbs;
