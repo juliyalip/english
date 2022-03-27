@@ -4,4 +4,12 @@
 
 .containerBtn {
   display: flex;
+
+  width: 550px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn {
+  width: 100px;
 }

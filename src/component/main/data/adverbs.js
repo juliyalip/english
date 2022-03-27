@@ -1,0 +1,115 @@
+const adverbs = [
+  { id: '003', complited: true, text: 'quickly', translate: 'быстро' },
+  { id: '004', complited: false, text: 'warely', translate: 'осторожно' },
+  {
+    id: '005',
+    complited: false,
+    text: 'artfully',
+    translate: 'притворно, хитро',
+  },
+  { id: '006', complited: false, text: 'happily', translate: 'счастливо' },
+  {
+    id: '007',
+    complited: false,
+    text: 'carefully',
+    translate: 'с осторожностью',
+  },
+  {
+    id: '008',
+    complited: false,
+    text: 'eventually',
+    translate: 'в конце концов',
+  },
+  { id: '009', complited: false, text: 'immediently', translate: 'немедлено' },
+  { id: '010', complited: false, text: 'slowly', translate: 'медленно' },
+  { id: '011', complited: false, text: 'briefly', translate: 'кротко' },
+  { id: '012', complited: false, text: 'clearly', translate: 'четко' },
+  {
+    id: '013',
+    complited: false,
+    text: 'concisely',
+    translate: 'кратко, сжато',
+  },
+
+  {
+    id: '014',
+    complited: false,
+    text: 'vaquely',
+    translate: 'смутно, неопределенно',
+  },
+  { id: '015', complited: false, text: 'deeply', translate: 'глубоко' },
+  { id: '016', complited: false, text: 'seriously', translate: 'серьезно' },
+  { id: '017', complited: false, text: 'thoughtfully', translate: 'задумчиво' },
+  { id: '018', complited: false, text: 'bravelly', translate: 'храбро' },
+  { id: '019', complited: false, text: 'furiously', translate: 'яросно' },
+  { id: '020', complited: false, text: 'gamely', translate: 'храбро' },
+  { id: '021', complited: false, text: 'accidentally', translate: 'случайно' },
+  { id: '022', complited: false, text: 'seriously', translate: 'серьезно' },
+  {
+    id: '023',
+    complited: false,
+    text: 'slightly',
+    translate: 'слегка, немного',
+  },
+
+  { id: '024', complited: false, text: 'anxiously', translate: 'с тревогой' },
+  {
+    id: '025',
+    complited: false,
+    text: 'attentivelly',
+    translate: 'внимательно',
+  },
+  { id: '026', complited: false, text: 'hurriedly', translate: 'поспешно' },
+  { id: '027', complited: false, text: 'brilliantly', translate: 'блестяще' },
+
+  { id: '028', complited: false, text: 'clearly', translate: 'ясно' },
+  { id: '029', complited: false, text: 'dimly', translate: 'тускло, смутно' },
+  { id: '030', complited: false, text: 'frantically', translate: 'отчаянно' },
+
+  { id: '031', complited: false, text: 'joyfully', translate: 'радостно' },
+  { id: '032', complited: false, text: 'jubilantly', translate: 'ликуя' },
+  { id: '033', complited: false, text: 'loudly', translate: 'громко' },
+
+  { id: '034', complited: false, text: 'suddenly', translate: 'внезапно' },
+  { id: '035', complited: false, text: 'loudly', translate: 'громко' },
+  { id: '036', complited: false, text: 'softly', translate: 'тихо' },
+  { id: '037', complited: false, text: 'sweetly', translate: 'сладко' },
+  { id: '038', complited: false, text: 'tunefully', translate: 'мелодично' },
+  { id: '039', complited: false, text: 'broadly', translate: 'широко' },
+
+  { id: '041', complited: false, text: 'ruefully', translate: 'печально' },
+  { id: '042', complited: false, text: 'clearly', translate: 'четко' },
+  { id: '043', complited: false, text: 'distinctly', translate: 'отчетливо' },
+  { id: '044', complited: false, text: 'earnestly', translate: 'серьезно' },
+
+  { id: '045', complited: false, text: 'patiently', translate: 'терпеливо' },
+  { id: '046', complited: false, text: 'anxiously', translate: 'с тревогой' },
+  { id: '047', complited: false, text: 'clumsily', translate: 'неуклюже' },
+  { id: '048', complited: false, text: 'haltingly', translate: 'медленно' },
+  {
+    id: '049',
+    complited: false,
+    text: 'slouchingly',
+    translate: 'нелепо, сутулясь',
+  },
+  { id: '050', complited: false, text: 'bitterly', translate: 'горько' },
+
+  { id: '051', complited: false, text: 'sadly', translate: 'грустно' },
+  {
+    id: '052',
+    complited: false,
+    text: 'distractedly',
+    translate: 'рассеянно, в смятении',
+  },
+  { id: '040', complited: false, text: 'touchingly', translate: 'трогательно' },
+  { id: '053', complited: false, text: 'humbly', translate: 'смиренно' },
+  {
+    id: '054',
+    complited: false,
+    text: 'respectfully',
+    translate: 'почтительно',
+  },
+  { id: '055', complited: false, text: 'stiffy', translate: 'сухо, чопорно' },
+];
+
+export default adverbs;

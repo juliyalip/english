@@ -7,17 +7,19 @@ export default function ItemSelfDevelopment({ complited,
     return (
         <div className={s.containerBtn}>
                  
-            <button type="button" onClick={onClickLastBtn} disabled={onFirstIndex}>
+            <button className={s.btn} type="button" onClick={onClickLastBtn} disabled={onFirstIndex}>
                 last
             </button>
 
 
-            <span>{text}</span>
-            <div>
-                <input type="checkbox" checked={complited} onChange={onComplited} />
+              <span>{text}</span>
+            <div >
+              
+                <input type="checkbox" checked={complited} onChange={ onComplited} />
                 {complited ? <label>{ translate}</label> : <label>translate</label>}
             </div>
-            <button type="button" onClick={onClickNextBtn} disabled={onLastIndex}>
+
+            <button className={s.btn} type="button" onClick={onClickNextBtn} disabled={onLastIndex}>
                 next
             </button>
         </div>
