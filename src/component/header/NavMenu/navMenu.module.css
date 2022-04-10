@@ -9,6 +9,8 @@
 
 .item {
   padding: 10px;
+
+  position: relative;
 }
 
 .item a {
@@ -22,4 +24,10 @@
 
 .list .item + .item {
   margin-left: 30px;
+}
+
+.icon {
+  width: 20px;
+  margin-left: 10px;
+  vertical-align: middle;
 }

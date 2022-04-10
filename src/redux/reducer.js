@@ -1,4 +1,4 @@
-import { createReducer } from '@reduxjs/toolkit';
+import { createReducer, combineReducers } from '@reduxjs/toolkit';
 import stateVerbs from '../component/main/data/stateVerbs';
 import adverbs from '../component/main/data/adverbs';
 import { complitedVerbSuccess } from './action';

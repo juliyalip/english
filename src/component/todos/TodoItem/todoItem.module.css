@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  width: 350px;
+  border: 1px solid black;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.container:nth-child(3n) {
+  margin-right: 0;
+}
